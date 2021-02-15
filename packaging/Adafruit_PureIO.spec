@@ -12,6 +12,7 @@ Source0:        %pypi_source
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
+BuildRequires:  python3-setuptools_scm_git_archive
 
 %description
 Pure python (i.e. no native extensions) access to Linux IO including I2C and SPI.
